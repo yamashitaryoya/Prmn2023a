@@ -144,7 +144,7 @@ class Reminder:
         
         if delete_check:
             st.warning("Do you really want to delete it ?",icon="⚠️")
-            if st.button("Yes!!"):
+            if st.button("Yes!!!"):
                 self.db.delete_db(delete_task)
                 st.success("Deleted!! : {}".format(delete_task), icon="✅")
             

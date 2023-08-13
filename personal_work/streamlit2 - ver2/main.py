@@ -1,3 +1,3 @@
 from app import Reminder
 
-app = Reminder()
+reminder = Reminder()
