@@ -9,7 +9,7 @@ class Reminder:
         
         st.set_page_config(
             page_title="Reminder",
-            layout="wide"
+            #layout="wide"
         )
     
         self.db = Database()
